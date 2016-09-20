@@ -21,20 +21,22 @@
   ```
 ###Maven
   Step 1. Add the JitPack repository to your build file
+  ```
 	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
-	
+  ```	
   Step 2. Add the dependency
+  ```
   <dependency>
 	    <groupId>com.github.yinte12</groupId>
 	    <artifactId>Barrage</artifactId>
 	    <version>v1.0.0</version>
 	</dependency>
-
+  ```
 ###License
     Copyright (C) 2016, super
     Licensed under the Apache License, Version 2.0 (the "License");
