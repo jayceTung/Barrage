@@ -5,18 +5,20 @@
 
 ###Gradle
   Step 1. Add the JitPack repository to your build file
+  ```
 	allprojects {
 		repositories {
 			...
 			maven { url "https://jitpack.io" }
 		}
 	 }
+  ```
   Step 2. Add the dependency
-
+  ```
 	dependencies {
 	   compile 'com.github.yinte12:Barrage:v1.0.0'
 	}
-
+  ```
 ###Maven
   Step 1. Add the JitPack repository to your build file
 	<repositories>
